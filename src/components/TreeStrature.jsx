@@ -7,7 +7,8 @@ const TreeStrature = ({ menus = [] })=> {
     <div className="container">
         <MenuList list={menus}/>
         <div className="contant">
-            <p>I have work in EHR logic </p>
+            <p>I tested on the vite template preact-ts, when template inits, HMR is not working</p>
+           <p>but when I change to export default it works well. </p>
         </div>
     </div>
   )
